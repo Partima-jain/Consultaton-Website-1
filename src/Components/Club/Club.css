@@ -1,0 +1,59 @@
+.video-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.video-container {
+    width: 25%; /* 25% of the screen width */
+    margin: 10px; /
+    flex: 1;
+    border: 1px solid #ff004f;
+}
+
+.video-container iframe {
+
+    height: 230px;
+    width: 100%; /* Set iframe width to cover full container */
+    margin-bottom: 20px;
+  
+}
+
+.text-container {
+    flex: 1;
+}
+
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.clubbox{
+    background-color: black;
+    color: white;
+}
+
+#heading {
+    margin-left: 700px;
+    align-items: center;
+    text-decoration: solid;
+}
+.head{
+    text-decoration: solid;
+    margin-bottom: 30px;
+}
+.head :hover{
+    color: #ff004f;
+}
+.left-image {
+    border: 2px solid #ff004f;
+}
+
+.sub-title{
+    align-items: center;
+}
